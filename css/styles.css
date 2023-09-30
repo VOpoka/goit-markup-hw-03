@@ -35,9 +35,8 @@ address {
   font-style: normal;
 }
 .container {
-  width: 1470px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -67,7 +66,6 @@ address {
 .header-navigation {
   display: inline-flex;
 }
-
 .header-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -81,7 +79,6 @@ address {
   padding-left: 156px;
   margin-right: 76px;
 }
-
 .logo-shade {
   color: #2e2f42;
 }
@@ -92,7 +89,6 @@ address {
 }
 .header-list {
 }
-
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -104,10 +100,8 @@ address {
 .header-menu-link:focus {
   color: #404bbf;
 }
-
 .address {
 }
-
 .address-item {
   display: inline-flex;
   align-items: end;
@@ -132,14 +126,13 @@ address {
   background-color: #2e2f42;
   margin-right: auto;
   margin-left: auto;
-} /* flex-shrink: 0; */
-.container-dark {
   width: 1470px;
   height: 600px;
   padding-top: 188px;
   padding-right: 472px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   padding-left: 472px;
+  align-items: center;
 }
 .dark-title {
   color: #fff;
@@ -150,10 +143,6 @@ address {
   text-align: center;
   width: 496px;
   margin-bottom: 48px;
-}
-.dark-bat {
-  display: flex;
-  align-items: center;
 }
 .dark-btn {
   background-color: #4d5ae5;
@@ -166,6 +155,7 @@ address {
   padding: 16px 32px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 164px;
 }
 .dark-btn:hover,
 .dark-btn:focus {
@@ -290,9 +280,32 @@ address {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  border: 1px solid #e7e9fc;
-  background: #fff;
 }
+.portfolio-brd {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  background: #fff;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+.portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .portfolio-img {
 }
 /* ------------------------------- */
@@ -321,15 +334,4 @@ address {
 
 .footer-logo-shade {
   color: #f4f4fd;
-}
-
-.footer-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  margin-top: 18px;
-  margin-left: 156px;
 }
