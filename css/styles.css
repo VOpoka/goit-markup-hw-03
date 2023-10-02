@@ -299,8 +299,8 @@ address {
   padding-bottom: 32px;
   padding-left: 16px;
   margin-bottom: 8px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-subtitle {
   color: #2e2f42;
